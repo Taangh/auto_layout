@@ -12,6 +12,7 @@
 		2D4FE4C91F4B5F1300E9CBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FE4C71F4B5F1300E9CBAF /* Main.storyboard */; };
 		2D4FE4CB1F4B5F1300E9CBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FE4CA1F4B5F1300E9CBAF /* Assets.xcassets */; };
 		2D4FE4CE1F4B5F1300E9CBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FE4CC1F4B5F1300E9CBAF /* LaunchScreen.storyboard */; };
+		2D684F651F4CB89900079481 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D684F641F4CB89900079481 /* RoundCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2D4FE4CA1F4B5F1300E9CBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4FE4CD1F4B5F1300E9CBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4FE4CF1F4B5F1300E9CBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D684F641F4CB89900079481 /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundCorners.swift; path = "dev-profile/Views/RoundCorners.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2D4FE4C21F4B5F1300E9CBAF /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				2D684F631F4CB70A00079481 /* Views */,
 				2D4FE4C31F4B5F1300E9CBAF /* AppDelegate.swift */,
 				2D4FE4C51F4B5F1300E9CBAF /* ViewController.swift */,
 				2D4FE4C71F4B5F1300E9CBAF /* Main.storyboard */,
@@ -62,6 +65,15 @@
 				2D4FE4CF1F4B5F1300E9CBAF /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		2D684F631F4CB70A00079481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D684F641F4CB89900079481 /* RoundCorners.swift */,
+			);
+			name = Views;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +149,7 @@
 			files = (
 				2D4FE4C61F4B5F1300E9CBAF /* ViewController.swift in Sources */,
 				2D4FE4C41F4B5F1300E9CBAF /* AppDelegate.swift in Sources */,
+				2D684F651F4CB89900079481 /* RoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
